@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header class="nav">
+        <div class="logo">HireCircuit</div>
+        <nav>
+          <a href="index.html">Home</a>
+              <a href="index.html">Features</a>
+              <a href="index.html">About</a>
+              <a href="profile.html">Profile</a>
+        </nav>
+      </header>
+    <div class="profile-container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+             <div class="profile-info">
+                <h1 id="userName">John Doe</h1>
+                <p id="userRollNo">Staff Id: 12345</p>
+                
+            </div>
+        </div>
+
+        <!-- Profile Form Section -->
+        <section class="profile-form">
+            <h2>Edit Profile</h2>
+            <form id="profileForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="rollNo">Staff Id:</label>
+                <input type="text" id="rollNo" name="rollNo" placeholder="Enter your roll number" required>
+
+
+                <button type="submit">Save Profile</button>
+            </form>
+        </section>
+
+        <!-- Edit Button (To Toggle Form Display) -->
+        <button id="editProfileButton" onclick="toggleEditForm()">Edit Profile</button>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
