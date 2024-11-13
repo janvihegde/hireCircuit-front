@@ -1,0 +1,139 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Profile Container */
+.profile-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.profile-info p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.profile-info a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Profile Form */
+.profile-form {
+    margin-top: 30px;
+}
+
+.profile-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.profile-form form {
+    display: grid;
+    gap: 20px;
+}
+
+.profile-form label {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.profile-form input {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile-form button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.profile-form button:hover {
+    background: #0056b3;
+}
+
+/* Edit Button */
+#editProfileButton {
+    padding: 10px 20px;
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+#editProfileButton:hover {
+    background: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #2a2a2a;
+    color: #fff;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+    background: #2a2a2a;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #00bfff;
+  }
+  

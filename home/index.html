@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">HireCircuit</div>
+    <nav>
+      <a href="index.html">Home</a>
+          <a href="index.html">Features</a>
+          <a href="index.html">About</a>
+          <a href="profile.html">Profile</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Welcome to HireCircuit</h1>
+    <button onclick="scrollToSection('features')">Explore Features</button>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="feature">
+      <h3>coding tests</h3>
+      <button id="codingTest">Lets go!!</button>
+      <p>Access a variety of coding tests to strengthen your skills and become fully prepared for placements!</p>    </div>
+    <div class="feature">
+      <h3>Job Portal</h3>
+      <button id="Job">Lets go!!</button>
+      <p>Easily learn about the companies coming to your college and prepare.</p>
+    </div>
+    <div class="feature">
+      <h3>Internship Portal</h3>
+      <button id="intern">Lets go!!</button>
+      <p>Learn about upcoming internships.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Abhudhaya at NMAMIT actively supports students in securing internships and job placements with top companies. They provide career guidance, organize workshops, and conduct training sessions to enhance students' skills and employability. The department works closely with industry leaders to offer students numerous opportunities for professional growth and success.</p>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 HireCircuit. All rights reserved.</p>
+  </footer>
+
+  <script>
+     document.getElementById("codingTest").onclick = function(){
+    window.location.href = "codingTest.html";
+        };
+        document.getElementById("Job").onclick = function(){
+    window.location.href = "Job.html";
+        };
+        document.getElementById("intern").onclick = function(){
+    window.location.href = "intern.html";
+        };
+  </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header class="nav">
+        <div class="logo">HireCircuit</div>
+        <nav>
+          <a href="index.html">Home</a>
+              <a href="index.html">Features</a>
+              <a href="index.html">About</a>
+              <a href="profile.html">Profile</a>
+        </nav>
+      </header>
+    <div class="profile-container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+             <div class="profile-info">
+                <h1 id="userName">John Doe</h1>
+                <p id="userRollNo">Roll No: 12345</p>
+                <p id="userSem">Semester: 5</p>
+                <p id="userDepartment">Department: Computer Science</p>
+                <a href="#" id="userResume" target="_blank">Resume</a>
+            </div>
+        </div>
+
+        <!-- Profile Form Section -->
+        <section class="profile-form">
+            <h2>Edit Profile</h2>
+            <form id="profileForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="rollNo">Roll No:</label>
+                <input type="text" id="rollNo" name="rollNo" placeholder="Enter your roll number" required>
+
+                <label for="sem">Semester:</label>
+                <input type="number" id="sem" name="sem" placeholder="Enter your semester" required>
+
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" placeholder="Enter your department" required>
+
+                <label for="resume">Resume (PDF):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf" required>
+
+                <button type="submit">Save Profile</button>
+            </form>
+        </section>
+
+        <!-- Edit Button (To Toggle Form Display) -->
+        <button id="editProfileButton" onclick="toggleEditForm()">Edit Profile</button>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
