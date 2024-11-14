@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="logo">HireCircuit</div>
+            <h2>Sign up and come on in.</h2>
+            <div class="manage-teams">
+                
+            </div>
+            
+        </div>
+        
+        <div class="right-panel">
+            <div class="header">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+            <h1>Welcome to HireCircuit 👋</h1>
+
+            <form class="signup-form">
+
+                <div class="input-group">
+                    <label for="full-name">Full legal name</label>
+                    <input type="text" id="full-name" placeholder="your name">
+                    <span id="namefb" class="error"></span>
+                    
+                </div>
+                <div class="input-group">
+                    <label for="email">College email</label>
+                    <input type="email" id="email" placeholder="you@nmamit.in" >
+                    <span id="emailfb" class="error"></span>
+                    
+                </div>
+                <div class="input-group">
+                    <label for="password">Create password</label>
+                    <input type="password" id="password" placeholder="Password">
+                    <span id="passfb" class="error"></span>
+                </div>
+                <div class="password-requirements">
+                    <!-- <span>Lowercase characters.</span>
+                    <span>Uppercase characters.</span>
+                    <span>Numbers.</span>
+                    <span>14 characters minimum.</span> -->
+                    <span>Password Requirements:
+                    
+                    <ul>
+                        <li>Lowercase characters.</li>
+                        <li>Uppercase characters.</li>
+                        <li>Numbers.</li>
+                        <li>14 characters minimum.</li>
+                    </ol>
+                </span>
+                </div>
+                <button type="submit" class="signup-button">Sign up</button>
+                <p class="terms">Privacy Policy and <a href="#">Terms and Conditions</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 40%;
+    background-color: #0033a0;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-panel .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-panel h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+
+
+.calculate-link {
+    color: #0033a0;
+    text-decoration: none;
+}
+
+.right-panel {
+    width: 60%;
+    padding: 40px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-panel .header {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.right-panel .header a {
+    color: #0033a0;
+    text-decoration: none;
+}
+
+.right-panel h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.right-panel p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group input.error {
+    border-color: #d9534f;
+}
+
+.input-group small {
+    color: #777;
+    font-size: 12px;
+}
+
+.password-requirements {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.password-requirements span {
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.signup-button {
+    background-color: #0033a0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+    margin-left: 40%;
+}
+
+.signup-button:hover {
+    background-color: #00257a;
+}
+
+.terms {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #555;
+}
+
+.terms a {
+    color: #0033a0;
+    text-decoration: none;
+}
+.error{
+    color: #d9534f;
+    font-size: 15px;
+    
+
+    
+}
+.valid{
+    color:#00257a;
+    font-size: 15px;
+}
+ul{
+    font-size: 13px;
+}
